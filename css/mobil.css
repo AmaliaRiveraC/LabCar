@@ -2,7 +2,6 @@
   #desktop {
     display: none;
   }
-
   .mobil {
     display: block;
   }
@@ -13,14 +12,11 @@
   }
   #mobil {
     display: flex;
-
-
   }
   #img-logo-color {
     padding: 3%;
     padding-left: 25%;
   }
-
   #menuhug {
     display: flex;
     flex-direction: column;
@@ -37,60 +33,80 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-   
-   
   /*Seccion app*/
-  #descargaApp{
+  #descargaApp {
     display: flex;
-    height:400px;
+    height: 400px;
   }
-
-  .iphone{
+  .iphone {
     height: 350px;
     padding: 50px;
   }
-
-  .descarga{
-    display:block;
+  .descarga {
+    display: block;
   }
-
-  .nueva-app{
+  .nueva-app {
     display: flex;
     align-items: flex-start;
     color: #fff;
   }
-
   .ocultar {
     display: none;
   }
-
   #panel {
     display: none;
   }
-
+  #panelmobil {
+    display: flex;
+  }
+  #home-mobil {
+    display: block;
+  }
+  /*seccion tarifa*/
+  #tarifa {
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+  }
+  .font-movil {
+    font-size: 4.0vw;
+  }
+  /*Seccion app*/
+  #descargaApp {
+    display: flex;
+    height: 400px;
+  }
+  .iphone {
+    height: 350px;
+    padding: 50px;
+  }
+  .descarga {
+    display: block;
+  }
+  .nueva-app {
+    display: inline-block;
+    color: #fff;
+    margin: -274px;
+  }
+  .destino {
+    display: inline-block;
+    color: #fff;
+    margin-top: 322px;
+    margin-left: -331px;
+  }
+  .ocultar {
+    display: none;
+  }
+  #panel {
+    display: none;
+  }
   #panelmobil {
     display: flex;
   }
 
-  /*seccion tarifa*/
-#tarifa {
-
-  flex-direction: column;
-  width: 100%;
-  align-content: center;
-  justify-content: center;
-
 }
 
-.font-movil{
-  font-size: 4.0vw;
-}
-}
 
-@media (min-width: 720px){
-    #home-mobil{
-        display: none;
-    }
 }
-
 
