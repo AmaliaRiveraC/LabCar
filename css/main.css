@@ -221,6 +221,12 @@ footer {
 }
 #header-registro {
   background-color: #000;
+   padding: 1%;
+}
+
+#inputs-registro {
+  display: flex;
+  flex-direction: column;
 }
 
 .registro {
